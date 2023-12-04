@@ -1,0 +1,41 @@
+{
+  "SettingsVersion": 1.2,
+  "SimMode": "Car",
+  "Vehicles": {
+    "Agent": {
+      "VehicleType": "PhysXCar",
+      "Cameras": {
+        "Left": {
+          "CaptureSettings": [
+            { "ImageType": 5, "Width": 128, "Height": 72, "FOV_Degrees": 120 }
+          ],
+          "X": 2, "Y": 0, "Z": -2,
+          "Pitch": -15, "Roll": 0, "Yaw": -15
+        },
+        "Center": {
+          "CaptureSettings": [
+            { "ImageType": 5, "Width": 128, "Height": 72, "FOV_Degrees": 120 }
+          ],
+          "X": 2, "Y": 0, "Z": -2,
+          "Pitch": -15, "Roll": 0, "Yaw": 0
+        },
+        "Right": {
+          "CaptureSettings": [
+            { "ImageType": 5, "Width": 128, "Height": 72, "FOV_Degrees": 120 }
+          ],
+          "X": 2, "Y": 0, "Z": -2,
+          "Pitch": -15, "Roll": 0, "Yaw": 15
+        }
+      }
+    }
+  },
+  "Recording": {
+    "RecordOnMove": true,
+    "RecordInterval": 0.07,
+    "Cameras": [
+      { "CameraName": "Left", "ImageType": 5, "PixelsAsFloat": false, "Compress": true },
+      { "CameraName": "Center", "ImageType": 5, "PixelsAsFloat": false, "Compress": true },
+      { "CameraName": "Right", "ImageType": 5, "PixelsAsFloat": false, "Compress": true }
+    ]
+  }
+}
