@@ -25,9 +25,7 @@ correcting the steering label for the left and right view to get back on track [
 Watch the agent drive:
 
 <p align="center">
-    <a href="https://youtu.be/NtGKL55OlRk">
-        <img src="./media/watch.png" alt="Play Video" width="400px">
-    </a>
+    <img src="./media/agent.gif">
 </p>
 
 ## Reinforcement learning
@@ -37,7 +35,5 @@ For exploration and learning, a fixed standard-deviation was used. The agents ta
 Watch the reinforced agent drive:
 
 <p align="center">
-    <a href="https://youtu.be/FeG0P5Vdqsg">
-        <img src="./media/watch.png" alt="Play Video" width="400px">
-    </a>
+    <img src="./media/agent_ppo.gif">
 </p>
